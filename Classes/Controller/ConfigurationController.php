@@ -487,7 +487,7 @@ HTML;
      */
     protected function addStatisticsAndSocialLink()
     {
-        $fileName = PATH_site . 'typo3conf/.tx_imageautoresize';
+        $fileName = PATH_site . 'uploads/tx_imageautoresize/.tx_imageautoresize';
 
         if (!is_file($fileName)) {
             return;

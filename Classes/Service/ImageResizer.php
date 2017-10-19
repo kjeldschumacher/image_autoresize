@@ -606,7 +606,7 @@ class ImageResizer
      */
     protected function reportAdditionalStorageClaimed($bytes)
     {
-        $fileName = PATH_site . 'typo3conf/.tx_imageautoresize';
+        $fileName = PATH_site . 'uploads/tx_imageautoresize/.tx_imageautoresize';
 
         $data = [];
         if (file_exists($fileName)) {
